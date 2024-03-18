@@ -164,8 +164,8 @@ font-weight: 500;
   
   }
   #left{
-    height: 140px;
-    width: 140px;
+    height: 120px;
+    width: 120px;
     background-color: rgb(255, 254, 254);
     margin: 0 5%;
     display: flex;
@@ -179,8 +179,8 @@ font-weight: 500;
   }
   #left img{
     border-radius: 50%;
-    height: 140px;
-    width: 140px;
+    height: 120px;
+    width: 120px;
    
     
    
