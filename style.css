@@ -151,7 +151,7 @@ html, body{
   background:linear-gradient(rgb(34, 34, 34), rgb(158, 158, 158) ); 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 40vh;
   padding: 5vh;
   width: 30%;
@@ -714,8 +714,7 @@ font-weight: 500;
   #copy{
     font-size: small;
   }
-  
-  
+ 
 }
 
 #copy{
@@ -738,9 +737,55 @@ font-weight: 500;
     flex-direction: column;
     display: flex;
     justify-content: center;
-    gap: 4%;
+    gap: 2%;
     align-items: center;
+    color: #616161;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .links{
+
+    width: 100%;
+    height: 40%;
+  }
+  .links a{
+    /* background-color: red; */
+    cursor: pointer;
+    font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #616161;
+    text-decoration: none;
     
+  }
+  #link1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 40%;
+    height: 60%;
+  }
+  #link2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+
+
+  }
+
+  #link1 a:hover i{
+    margin-left: 10px;
+    transition-duration: 300ms;
+ 
+  }
+
+
+  .links i{
+    transition-duration: 300ms;
+  }
+  #link2 a:hover i{
+    margin-left: 10px;
+    transition-duration: 300ms;
   }
