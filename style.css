@@ -94,12 +94,7 @@ html, body{
   justify-content: space-between;
   transition-duration: 300ms;
 }
-#over1:hover{
-  transition-duration: 300ms;
-  width: 70%;
-  font-size: large;
-  
-}
+
 #over1 h1{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
@@ -153,7 +148,7 @@ html, body{
   
 }
 .div1{
-  background-color: rgb(88, 88, 88);
+  background:linear-gradient(rgb(34, 34, 34), rgb(158, 158, 158) ); 
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -167,11 +162,7 @@ html, body{
 }
 .div1:hover{
   transition-duration: 300ms;
-  height: 50vh;
-  padding: 6vh;
-  width: 40%;
-  font-size: large;
-  
+  box-shadow: 7px 7px 10px rgb(73, 73, 73) ;
 
 }
 
@@ -252,17 +243,18 @@ background-color: rgb(255, 255, 255);
   height: 60%;
   background-color: black;
   border-radius: 10px;
+  transition-duration: 300ms;
 
 }
 .imgs img{
   object-fit: cover;
   height: 100%;
-  width: 100%;
   border-radius: 10px;
+  width: 100%;
 }
 .imgs:hover  {
-  
-  opacity: 50%;
+  box-shadow: 10px 10px 10px gray;
+  transition-duration: 300ms;
 }
 .imgs h3{
   position: absolute;
@@ -381,7 +373,7 @@ background-color: rgb(255, 255, 255);
 
 
   #page1{
-    border-top: 1px solid rgb(80, 80, 80);
+    border-top: 1px solid rgb(61, 61, 61);
     width: 100vw;
     height: 60vh;
     position: relative;
@@ -406,15 +398,7 @@ background-color: rgb(255, 255, 255);
     transition-duration: 300ms;
   
   }
-  .div1:hover{
-    flex-shrink: 0;
-    height: 100%;
-    margin: 0 0vh;
-    width: 100%;
-    transition-duration: 300ms;
-    
-  
-  }
+ 
   
   .div1 .circle{
     display: none;
@@ -454,31 +438,26 @@ background-color: rgb(255, 255, 255);
     width: 70%;
     transition-duration: 300ms;
   }
-  .service:hover{
-    /* flex-shrink: 0; */
-    height: 100%;
-    margin: 0 1.5vh;
-    width: 95%;
-    transition-duration: 300ms;
-    
-  }
+ 
   .imgs{
     width: 100% ;
-    height: 60%;
-    background-color: black;
-    border-radius: 10px;
+  height: 60%;
+  background-color: black;
+  border-radius: 10px;
+  transition-duration: 300ms;
   
   }
   .imgs img{
     object-fit: cover;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
   }
   .imgs:hover  {
-    
-    opacity: 50%;
+    box-shadow: 10px 10px 10px gray;
+    transition-duration: 300ms;
   }
+
   .imgs h3{
     position: absolute;
     background-color: red;
@@ -529,9 +508,10 @@ background-color: rgb(255, 255, 255);
   align-items: center;
   padding: 0 5vh;
   background: url(./Screenshot53.jpeg);
-  object-fit: cover;
+  background-size: cover;
   /* opacity: 50%; */
-  background-position: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #left{
   height: 196px;
